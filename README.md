@@ -4,7 +4,7 @@ Software supplement for the paper
 
 "Solving Large-Scale Sparse PCA to Certifiable (Near) Optimality"
 
-by Dimitris Bertsimas, Ryan Cory-Wright and Jean Pauphilet
+by Dimitris Bertsimas, Ryan Cory-Wright and Jean Pauphilet for which a preprint is available [here](https://arxiv.org/abs/2005.05195).
 
 ## Introduction
 
@@ -32,6 +32,19 @@ At this point, the "createTablex.jl" files should run successfully.  To run the 
 
 The key method in this packages is getSDPUpperBound_gd().  It takes two required  arguments: `sigma`, and `k`, as well as two optional arguments which tell the method whether or not include the PSD constraint, and whether or not to include some additional valid inequalities which strengthen the relaxation. The variable `sigma` is a covariance matrix that holds the original data. The parameter `k` is a positive integer less than n.
 
+
+
+## Citing ScalableSPCA.jl
+
+If you use SparsePortfolioSelection.jl, we ask that you please cite the following [paper](https://arxiv.org/abs/1811.00138):
+```
+@article{bertsimas2020solving,
+  title={Solving Large-Scale Sparse PCA to Certifiable (Near) Optimality},
+  author={Bertsimas, Dimitris and Cory-Wright, Ryan and Pauphilet, Jean},
+  journal={arXiv preprint arXiv:2005.05195},
+  year={2020}
+}
+```
 
 ## Thank you
 
