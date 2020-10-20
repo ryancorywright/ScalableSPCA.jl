@@ -36,7 +36,7 @@ The key method in this packages is getSDPUpperBound_gd().  It takes two required
 
 ## Citing ScalableSPCA.jl
 
-If you use SparsePortfolioSelection.jl, we ask that you please cite the following [paper](https://arxiv.org/abs/1811.00138):
+If you use SparsePortfolioSelection.jl, we ask that you please cite the following [paper](https://arxiv.org/abs/2005.05195):
 ```
 @article{bertsimas2020solving,
   title={Solving Large-Scale Sparse PCA to Certifiable (Near) Optimality},
