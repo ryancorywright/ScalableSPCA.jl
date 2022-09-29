@@ -33,6 +33,9 @@ At this point, the "createTablex.jl" files should run successfully.  To run the 
 The key method in this packages is getSDPUpperBound_gd().  It takes two required  arguments: `sigma`, and `k`, as well as two optional arguments which tell the method whether or not include the PSD constraint, and whether or not to include some additional valid inequalities which strengthen the relaxation. The variable `sigma` is a covariance matrix that holds the original data. The parameter `k` is a positive integer less than n.
 
 
+## Related Packages
+If you are interested in computing multiple provably near optimal PCs, you may want to check out our related package https://github.com/ryancorywright/MultipleComponentsSoftware
+
 
 ## Citing ScalableSPCA.jl
 
